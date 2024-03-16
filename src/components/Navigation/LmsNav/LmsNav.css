@@ -1,0 +1,133 @@
+/* LmsNav.css */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .left-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: width 0.3s ease;
+  }
+  
+  .account-button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .account-button:hover {
+    background-color: teal;
+  }
+  
+  .account-info-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .account-info-button:hover {
+    background-color: blue;
+  }
+  
+  .account-details {
+    margin-top: 10px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .left-navbar:hover {
+    width: 300px;
+  }
+  
+  .account-details,
+  .account-info-button {
+    opacity: 0;
+  }
+  
+  .account-button:hover .account-info-button,
+  .account-button:hover .account-details {
+    opacity: 1;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the links within the <ul> element */
+  li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  li:hover {
+    background-color: teal;
+  }
+  
+  .toggle-button {
+    background-color: #5cb85c; /* A green color, you can change this */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+  }
+  .account-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: teal; /* Change this to your desired background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Center the arrow and username within the profile-info */
+  .profile-info p {
+    margin: 0;
+  }
+  
+  .arrow {
+    font-size: 14px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .up {
+    transform: rotate(180deg);
+  }

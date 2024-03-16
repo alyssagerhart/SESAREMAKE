@@ -1,0 +1,29 @@
+/* sectiontwo.css */
+
+/* Add this to your CSS file */
+.section-two {
+    max-width: 100%; /* Set your desired max-width */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* Set a light background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    margin-top: 20px; /* Add margin to the top */
+    margin-bottom: 20px; /* Add margin to the bottom */
+    font-size: 1.5em;
+    text-shadow: 2px 4px rgba(0, 0, 0, 1.8),
+  }
+  
+  .bold-part {
+    margin-bottom: 15px;
+  }
+  
+  .bold-part b {
+    color: #007681; /* Set a color for the bold text */
+  }
+  
+  p {
+    
+  }
+  
