@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { Logo } from '../../../LogoImage/Logo'; // Assuming Logo component is in a separate file
+import {Logo} from '../../../SigEdge/LogoImage/Logo'; // Assuming Logo component is in a separate file
 import './MainNav.css';
 
 interface NavLink {

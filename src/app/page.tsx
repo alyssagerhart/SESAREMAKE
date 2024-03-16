@@ -3,9 +3,9 @@ import Image from 'next/image';
 import {Inter} from 'next/font/google';
 import '../app/page.css';
 import MainNav from '@/components/Navigation/LmsNav/MainNav/MainNav';
-import {Video} from '../components/SigEdge/OneLiner/VideoOverlay/Video';
-import HorizontalLine from '@/components/SigEdge/OneLiner/HorizontalLine/HorizontalLine';
-import InfoSnippet from '@/components/SigEdge/OneLiner/InfoSnippet/InfoSnippet';
+import {Video} from '../components/SigEdge/VideoOverlay/Video';
+import HorizontalLine from '@/components/SigEdge/HorizontalLine/HorizontalLine';
+import InfoSnippet from '@/components/SigEdge/InfoSnippet/InfoSnippet';
 import OneLiner from '@/components/SigEdge/OneLiner/OneLiner';
 const inter = Inter({ subsets: ['latin'] });
 
