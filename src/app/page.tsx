@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import {Inter} from 'next/font/google';
 import '../app/page.css';
-import MainNav from '@/components/Navigation/LmsNav/MainNav/MainNav';
+import MainNav from '@/components/Navigation/MainNav/MainNav';
 import {Video} from '../components/SigEdge/VideoOverlay/Video';
 import HorizontalLine from '@/components/SigEdge/HorizontalLine/HorizontalLine';
 import InfoSnippet from '@/components/SigEdge/InfoSnippet/InfoSnippet';

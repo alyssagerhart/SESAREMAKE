@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import {Logo} from '../../../SigEdge/LogoImage/Logo'; // Assuming Logo component is in a separate file
+import {Logo} from '../../SigEdge/LogoImage/Logo'; // Assuming Logo component is in a separate file
 import './MainNav.css';
 
 interface NavLink {
@@ -11,8 +11,8 @@ interface NavLink {
 const navLinks: NavLink[] = [
   { label: 'Individuals', path: '/individuals' },
   { label: 'Companies', path: '/companies' },
-  { label: 'Sign In', path: '/sign-in' },
-  { label: 'Sign Up', path: '/sign-up' },
+  { label: 'Sign In', path: '/SignIn' },
+  { label: 'Sign Up', path: '/SignUp' },
 ];
 
 const Navbar: React.FC = () => {
