@@ -1,0 +1,56 @@
+/* Add this to your CSS file */
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #007681;
+    padding: 20px;
+  }
+  
+  .testimonials-header {
+    color: white;
+    font-size: 3em;
+    font-weight: 800; /* Extra bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow */
+    text-align: center;
+  }
+  
+  .testimonial-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .testimonial-column {
+    flex: 0 0 calc(25% - 20px); /* Four columns with 20px spacing between them */
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-image {
+    width: 100%;
+    max-width: 150px; /* Set your desired max-width for the images */
+    border-radius: 50%; /* Make the images circular */
+  }
+  
+  .testimonial-column h3 {
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 1.2em;
+    height: 70px; /* Set a fixed height for all white boxes */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+  }
+  
+  .testimonial-column p {
+    font-size: 0.9em;
+    margin-top: 5px;
+    color: white;
+    font-weight: lighter; /* Set the color for the testimonial text */
+  }
+  
